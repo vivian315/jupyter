@@ -1,0 +1,6 @@
+销售规则测试 saleRuleTest_v2
+主要完成：1: 主要参数：nodeCount（团队成员数）,kidNodeCount（子团队最大成员数）,orderAmountMax（订单金额上限）,orderAmountMin（订单金额下限）,levelCount（团队层级）
+        2: 模拟创建一个levelCount层团队，并根据orderAmountMax和orderAmountMin随机生成销售额
+        3: 根据规则计算佣金
+        4: 数据导出到csv文件
+        5: 利用pyechart，画一个树形图展示团队
